@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+h1, h2 {
+    color: #046db5;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.experience, .formation, .realisations, .projects {
+    margin-top: 30px;
+}
+
+.experience-item, .formation-item, .realisation-item, .project-item {
+    margin-bottom: 20px;
+}
+
+.project-item:hover {
+    background-color: #e0f7fa;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #046db5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

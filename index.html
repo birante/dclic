@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birante SY - Développeur Full Stack Web Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8zOTaVZJAdmC9kB1jPJyayrEN74BB7QJBKw&s" alt="Birante SY">
+            <div>
+                <h1>Birante SY</h1>
+                <p>Développeur Full Stack Web Mobile</p>
+            </div>
+        </div>
+        <div class="contact-info">
+            <p> +221 77 685 72 98 / Sicap Foire N 111, Dakar, Senegal</p>
+            <p> birantesy@gmail.com | <i class="fa fa-github"></i> @birante |  birantesy | birante</p>
+        </div>
+
+        <h2>PROFIL</h2>
+        <p>Passionné par la résolution de problèmes en tant que développeur logiciel, j'ai une expertise étendue dans la conception, le développement et l'optimisation de logiciels, utilisant divers langages de programmation.</p>
+        <p>Mon parcours professionnel est marqué par une expérience variée axée sur la résolution de défis complexes et l'amélioration des performances, avec une priorité absolue accordée à la satisfaction des utilisateurs. Actuellement en quête de nouveaux défis stimulants dans le domaine de l'informatique, je suis motivé à contribuer à des projets innovants et ambitieux.</p>
+
+        <div class="experience">
+            <h2>EXPERIENCES PROFESSIONELLES</h2>
+            <div class="experience-item">
+                <p><strong>Tukkijamm, Sénégal - Lead Développeur</strong> <span style="float: right;">Février 2022 - Présent</span></p>
+                <ul>
+                    <li>En charge de projets web et mobile au sein d’une équipe de 8 personnes.</li>
+                    <li>Analyse, Conception et Développement des sites et applications web et mobile.</li>
+                    <li>Supervision des équipes et coordination des tâches.</li>
+                    <li>Maintenance correctif de bugs et amélioration des sites et applications web et mobile.</li>
+                    <li>Inscription au Programmes de Covoiturage , Site Web, Appli Android, Appli Ios</li>
+                </ul>
+                <p>Technologies: Ruby On Rails, Javascript, Next.JS, Stimulus, Dart, Flutter, PostgreSQL, Méthodologies Agiles, Sentry, Amplitude, Firebase, REST API, Multitenant.</p>
+            </div>
+            <!-- Repeat the above block for each experience -->
+        </div>
+
+        <div class="formation">
+            <h2>FORMATIONS</h2>
+            <div class="formation-item">
+                <p>UDACITY / ANDELA - Formation en Dev Mobile Android - 2018</p>
+            </div>
+            <!-- Repeat the above block for each formation -->
+        </div>
+
+        <div class="realisations">
+            <h2>RÉALISATIONS</h2>
+            <div class="realisation-item">
+                <p>A formé 80 jeunes togolais au développement web et mobile (DWWM) pour le programme D-CLIC avec Energy Generation | Togo.</p>
+            </div>
+            <!-- Repeat the above block for each realisation -->
+        </div>
+
+        <div class="projects">
+            <h2>PROJECTS</h2>
+            <div class="project-item">
+                <p>Project Open Source projects: Senegal Phone Validator</p>
+            </div>
+            <!-- Repeat the above block for each project -->
+        </div>
+
+        <div class="contact-form">
+            <h2>Contactez-moi</h2>
+            <form id="contactForm">
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            if (!name || !email || !message) {
+                alert('Veuillez remplir tous les champs.');
+                event.preventDefault();
+            } else {
+                alert('Message envoyé avec succès!');
+            }
+        });
+    </script>
+</body>
+
+</html>
